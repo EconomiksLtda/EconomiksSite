@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  font-family: Roboto;
+}
+body {
+  margin: 0%;
+  height: 100vh;
+}
+.body-login {
+  background-image: url("resources/Desktop-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.logo,
+.titletext {
+  font-family: righteous;
+  color: rgba(76, 101, 77, 1);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.486);
+}
+.side {
+  background-color: rgba(198, 243, 181, 1);
+}
+.ecobtn {
+  background-color: rgb(108, 139, 129);
+  color: rgb(49, 63, 58);
+}
