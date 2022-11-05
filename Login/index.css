@@ -10,9 +10,20 @@ body {
 .body-login {
   background-image: url("resources/Desktop-3.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  background-size: 85%;
+  background-color: rgba(242, 242, 242, 1);
   height: 100vh;
 }
+
+@media all and (max-width: 500px) {
+  .body-login {
+    background-image: url("resources/iPhone\ 14\ -\ 1.png");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
 .logo,
 .titletext {
   font-family: righteous;
