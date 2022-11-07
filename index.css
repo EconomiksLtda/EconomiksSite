@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.economiks {
+  background-color: rgb(177, 206, 196);
+}
+.economikssub {
+  background-color: rgb(160, 184, 175);
+}
+.titletext-index {
+  font-family: righteous;
+  color: rgb(58, 77, 59);
+  font-size: 3.6rem;
+}
+.col-8 {
+  background-color: inherit;
+}
+.cortemp {
+  background-color: inherit;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
