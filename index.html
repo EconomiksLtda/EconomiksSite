@@ -7,6 +7,14 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-3.0.1.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
 </head>
   <body>   
     
@@ -21,7 +29,7 @@
       >nomiks
       </h1>
   </div>
-    
+  
     <!--Barra de pesquisa-->
     <div class="row ">
       <nav class="navbar navbar-expand-lg  economikssub p-1">
@@ -63,6 +71,69 @@
 
     </nav>
   </div><!--div-row-->
-  
+
+<!--Slick Slider-->
+
+
+<div class="container" style="background-color: rgb(193, 197, 197); padding: 0px 30px;">
+<div class="myslider">
+<!--Div 1-->
+  <div class="container text-center">
+    asdasda
+    <div class="d-flex justify-content-center"><img class="img-thumbnail" style="margin: 0px; width: 30%; padding: 0px;" src="login/resources/Apple.png" /></div>
+  </div>
+  <!--Div 2--> 
+  <div class="container text-center">
+    asdasda
+    <div class="d-flex justify-content-center"><img class="img-thumbnail" style="margin: 0px; width: 30%; padding: 0px;" src="login/resources/Apple.png" /></div>
+  </div>
+    <!--Div 3-->
+  <div class="container text-center">
+    asdasda
+    <div class="d-flex justify-content-center"><img class="img-thumbnail" style="margin: 0px; width: 30%; padding: 0px;" src="login/resources/Apple.png" /></div>
+  </div>
+    <!--Div 4-->
+  <div class="container text-center">
+    asdasda
+    <div class="d-flex justify-content-center"><img class="img-thumbnail" style="margin: 0px; width: 30%; padding: 0px;" src="login/resources/Apple.png" /></div>
+  </div>
+    <!--Div 5-->
+  <div class="container text-center">
+    asdasda
+    <div class="d-flex justify-content-center"><img class="img-thumbnail" style="margin: 0px; width: 30%; padding: 0px;" src="login/resources/Apple.png" /></div>
+  </div>
+    <!--Div 6-->
+  <div class="container text-center">
+    asdasda
+    <div class="d-flex justify-content-center"><img class="img-thumbnail" style="margin: 0px; width: 30%; padding: 0px;" src="login/resources/Apple.png" /></div>
+  </div>
+    <!--Div 7-->
+  <div class="container text-center">
+    asdasda
+    <div class="d-flex justify-content-center"><img class="img-thumbnail" style="margin: 0px; width: 30%; padding: 0px;" src="login/resources/Apple.png" /></div>
+  </div>
+    <!--Div 8-->
+  <div class="container text-center">
+    asdasda
+    <div class="d-flex justify-content-center"><img class="img-thumbnail" style="margin: 0px; width: 30%; padding: 0px;" src="login/resources/Apple.png" /></div>
+  </div>
+
+</div>
+</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+      $('.myslider').slick({
+          dots: true,
+          infinite: true,
+          speed: 700,
+          autoplay:false,
+          autoplaySpeed: 2000,
+          arrows:true,
+          slidesToShow: 4,
+          slidesToScroll: 3
+      });
+  });
+</script>
+</div>
 </body>
 </html>
