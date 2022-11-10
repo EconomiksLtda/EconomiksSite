@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
   padding: 0px;
   border: 0px;
   margin: 0px;
+  font-family: Roboto;
 }
 
 body {
   overflow-x: hidden;
+  background-color: rgba(242, 242, 242, 1);
 }
 
 .economiks {
@@ -30,20 +34,19 @@ body {
   padding-right: 0;
   padding-left: 0;
 }
-.items{
-  width:90%;
-  margin:0px auto;
+.items {
+  width: 90%;
+  margin: 0px auto;
   margin-top: 100px;
 }
-.slick-slide{
-  margin:10px;
+.slick-slide {
+  margin: 10px;
 }
-.slick-slide img{
-  width:100%;
+.slick-slide img {
+  width: 100%;
   border: 0px solid #fff;
 }
-.div-carousel{
-  margin:0px;
+.div-carousel {
+  margin: 0px;
   display: inline-block;
-  
 }
