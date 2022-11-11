@@ -2,14 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
-  padding: 0px;
-  border: 0px;
-  margin: 0px;
   font-family: Roboto;
 }
 
+html,
 body {
-  overflow-x: hidden;
+  min-height: 100%;
+}
+body {
   background-color: rgba(242, 242, 242, 1);
 }
 
@@ -22,7 +22,10 @@ body {
 .titletext-index {
   font-family: righteous;
   color: rgb(58, 77, 59);
-  font-size: 3.6rem;
+  font-size: 7rem;
+}
+.logo-titulo {
+  height: 50px;
 }
 .col-8 {
   background-color: inherit;
@@ -39,14 +42,23 @@ body {
   margin: 0px auto;
   margin-top: 100px;
 }
-.slick-slide {
-  margin: 10px;
-}
 .slick-slide img {
   width: 100%;
-  border: 0px solid #fff;
+  border: 2px solid rgba(0, 0, 0, 0.26);
 }
 .div-carousel {
   margin: 0px;
   display: inline-block;
+}
+.titulo-produto {
+  margin: 0px;
+  background-color: aqua;
+  display: inline-block;
+  max-width: 130px;
+  overflow: hidden;
+}
+@media (max-width: 320px) {
+  .titletext-index {
+    font-size: 4rem;
+  }
 }
