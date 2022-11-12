@@ -14,10 +14,10 @@ body {
 }
 
 .economiks {
-  background-color: rgb(177, 206, 196);
+  background-color: rgb(185, 228, 185);
 }
 .economikssub {
-  background-color: rgb(160, 184, 175);
+  background-color: rgb(186, 206, 192);
 }
 .titletext-index {
   font-family: righteous;
@@ -27,6 +27,14 @@ body {
 .logo-titulo {
   height: 50px;
 }
+
+@media  screen and (max-width: 100%) {
+  input{
+    width: 400px;
+  }
+  
+}
+
 .col-8 {
   background-color: inherit;
 }
