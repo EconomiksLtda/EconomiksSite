@@ -20,7 +20,6 @@
 .titletext {
   font-family: righteous;
   color: rgba(76, 101, 77, 1);
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.486);
 }
 .titletext#subtitulo {
   font-size: 4rem;
@@ -30,8 +29,11 @@
   background-color: rgba(198, 243, 181, 1);
 }
 .ecobtn {
-  background-color: rgb(108, 139, 129);
+  background-color: #a1d78c;
   color: rgb(49, 63, 58);
+  border-radius: 15px;
+  font-size: 2ch;
+  font-weight: bold;
 }
 .logo:hover {
   color: rgba(76, 101, 77, 1);
