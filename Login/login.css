@@ -4,19 +4,27 @@
   font-family: Roboto;
 }
 .body-login {
-  background-image: url("resources/Desktop-3.png");
+  background-image: url("resources/Desktop\ -\ 7\ \(6\).png");
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   background-position: center;
-  background-size: 85%;
   background-color: rgba(242, 242, 242, 1);
   height: 100vh;
 }
 
+.img-icone {
+  width: 60px;
+}
 .logo,
 .titletext {
   font-family: righteous;
   color: rgba(76, 101, 77, 1);
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.486);
+}
+.titletext#subtitulo {
+  font-size: 4rem;
+  padding-top: 2em;
 }
 .side {
   background-color: rgba(198, 243, 181, 1);
@@ -24,4 +32,34 @@
 .ecobtn {
   background-color: rgb(108, 139, 129);
   color: rgb(49, 63, 58);
+}
+.logo:hover {
+  color: rgba(76, 101, 77, 1);
+}
+
+.semcor {
+  color: rgba(0, 0, 0, 0.486);
+}
+
+.semcor:hover {
+  color: black !important;
+}
+
+a#icone {
+  transition: 250ms ease-in-out;
+}
+
+a#icone:hover {
+  transition: 250ms ease;
+  scale: 1.2;
+}
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  body {
+    background-image: url(resources/Tela-media\ \ 9.png);
+    background-color: aqua;
+  }
 }

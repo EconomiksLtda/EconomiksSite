@@ -17,84 +17,109 @@
     <div
       class="container h-100 d-flex flex-row justify-content-center align-items-center"
     >
-      <!--Primeira coluna-->
       <div
-        class="container p-5 bg-light d-flex flex-column rounded-start justify-content-center"
+        class="d-flex flex-row justify-content-center align-items-center container-fluid py-5 m-0 h-100"
       >
-        <!--Links-->
-        <div class="container-fluid text-center d-flex justify-content-between">
-          <img
-            src="resources/Google.png"
-            class="img-thumbnail"
-            alt="Entrar com o Google"
-            style="width: 10%"
-          />
-
-          <img
-            src="resources/Apple.png"
-            class="img-thumbnail"
-            alt="Entrar com a Apple"
-            style="width: 10%"
-          />
-
-          <img
-            src="resources/Facebook.png"
-            class="img-thumbnail"
-            alt="Entrar com o Facebook"
-            style="width: 10%"
-          />
+        <!--Primeira coluna-->
+        <div
+          class="container p-5 bg-light d-flex flex-column rounded-start justify-content-center flex-grow-1 h-100 col-1"
+        >
+          <!--Links-->
+          <div class="container-fluid pb-5">
+            <p class="px-2 text-center">Entrar com:</p>
+            <div class="d-flex align-content-between justify-content-around">
+              <a href="#" id="icone">
+                <img
+                  src="resources/Google.png"
+                  class="img-icone px-2"
+                  alt="Entrar com o Google"
+                />
+              </a>
+              <a href="#" id="icone">
+                <img
+                  src="resources/Facebook.png"
+                  class="img-icone px-2"
+                  alt="Entrar com o Facebook"
+                />
+              </a>
+              <a href="#" id="icone">
+                <img
+                  src="resources/Apple.png"
+                  class="img-icone px-2"
+                  alt="Entrar com a Apple"
+                />
+              </a>
+            </div>
+          </div>
+          <!--Links-->
+          <div
+            class="container-fluid d-flex flex-column justify-content-center pt-5 px-0"
+          >
+            <input
+              type="Email"
+              class="form-control col-lg m-2 shadow-sm"
+              placeholder="Digite seu email"
+              aria-label="Digite seu email"
+              aria-describedby="basic-addon1"
+            />
+            <input
+              type="password"
+              class="form-control col-lg m-2 shadow-sm"
+              placeholder="Digite sua senha"
+              aria-label="Digite sua senha"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+          <div
+            class="container-fluid d-flex justify-content-center align-content-center"
+          >
+            <button class="btn ecobtn m-2">Entrar</button>
+            <p class="align-self-center m-0">ou</p>
+            <a class="semcor" href="../Cadastro/cadastro.html">
+              <button class="btn ecobtn m-2">Cadastre-se</button>
+            </a>
+          </div>
         </div>
-
-        <!--Links-->
-        <input
-          type="Email"
-          class="form-control col-lg m-2"
-          placeholder="Digite seu email"
-          aria-label="Digite seu email"
-          aria-describedby="basic-addon1"
-        />
-        <input
-          type="password"
-          class="form-control col-lg m-2"
-          placeholder="Digite sua senha"
-          aria-label="Digite sua senha"
-          aria-describedby="basic-addon1"
-        />
-
-        <button class="btn ecobtn col-2 m-2">Entrar</button>
-      </div>
-
-      <!--Segunda coluna-->
-
-      <!--Título principal-->
-      <div class="container p-5 side d-flex flex-column rounded-end">
-        <a href="../index.html" style="text-decoration: none">
+        <!--Segunda coluna-->
+        <!--Título principal-->
+        <div
+          class="container p-5 side d-flex flex-column rounded-end flex-grow-1 h-100 col-1"
+        >
           <h1 class="titletext text-center px-sm-2">
-            <span class="titletext" style="color: rgba(103, 135, 105, 1)"
-              >eco</span
-            >nomiks
+            <a href="../index.html" style="text-decoration: none" class="logo">
+              <span class="titletext" style="color: rgba(103, 135, 105, 1)"
+                >eco</span
+              >nomiks
+            </a>
           </h1>
-        </a>
-
-        <!--Sob-título-->
-        <div class="container order-first text-center">
-          <p class="titletext" style="margin-bottom: 0px">
-            <span class="titletext" style="color: rgba(103, 135, 105, 1)"
-              >eco</span
-            >logia
-          </p>
-          <p class="titletext">
-            <span class="titletext" style="color: rgba(103, 135, 105, 1)"
-              >eco</span
-            >nomia
-          </p>
-        </div>
-
-        <div class="container order-last text-center my -5">
-          <h1 class="titletext">
-            Seja <br />
-            Bem-Vindo(a)!
-          </h1>
+          <div class="container d-flex justify-content-center">
+            <img
+              src="resources/Economiks Logo.png"
+              alt="Logo economiks"
+              style="width: 200px"
+            />
+          </div>
+          <!--Sob-título-->
+          <div class="container order-first text-center">
+            <p class="titletext" style="margin-bottom: 0px">
+              <span class="titletext" style="color: rgba(103, 135, 105, 1)"
+                >eco</span
+              >logia
+            </p>
+            <p class="titletext">
+              <span class="titletext" style="color: rgba(103, 135, 105, 1)"
+                >eco</span
+              >nomia
+            </p>
+          </div>
+          <div
+            class="container d-flex order-last text-center justify-content-center align-content-center my -5"
+          >
+            <h1 class="titletext" id="subtitulo">
+              Seja <br />
+              Bem-Vindo(a)!
+            </h1>
+          </div>
         </div>
       </div>
     </div>
