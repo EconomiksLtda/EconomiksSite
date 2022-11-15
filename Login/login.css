@@ -59,9 +59,19 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 800px) {
-  body {
-    background-image: url(resources/Tela-media\ \ 9.png);
-    background-color: aqua;
+@media all and (max-width: 920px) {
+  .body-login {
+    background-image: url("resources/Desktop\ -\ 11Medium\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+  }
+}
+
+@media all and (max-width: 370px) {
+  .body-login {
+    background-image: url("resources/iPhone\ 14\ -\ 1.png");
+    background-position: center;
+    background-size: cover;
   }
 }

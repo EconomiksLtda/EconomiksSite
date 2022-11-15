@@ -52,11 +52,19 @@ body {
   }
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 920px) {
   .body-cadastro {
-    background-image: url("resources/iPhone\ 14\ -\ 1.png");
+    background-image: url("resources/Desktop\ -\ 11Medium.png");
     background-position: center;
     background-size: cover;
+  }
+
+  @media all and (max-width: 700px) {
+    .body-cadastro {
+      background-image: url("resources/iPhone\ 14\ -\ 1.png");
+      background-position: center;
+      background-size: cover;
+    }
   }
 
   .logo-economiks {
