@@ -68,10 +68,15 @@ a {
   }
 }
 
-@media all and (max-width: 370px) {
+@media all and (max-width: 320px) {
   .body-login {
     background-image: url("resources/iPhone\ 14\ -\ 1.png");
     background-position: center;
     background-size: cover;
+    width: 100vw;
+  }
+
+  .img-icone {
+    width: 12px;
   }
 }
