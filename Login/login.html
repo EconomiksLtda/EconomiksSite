@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="login.css" />
+    
     <title>Document</title>
   </head>
   <body class="body-login">
@@ -28,9 +29,9 @@
           <div class="container-fluid pb-5">
             <p
               class="px-2 text-center"
-              style="font-size: 2ch; font-weight: bold"
+              style="font-size: 2ch; font-weight: bold;"
             >
-              Entrar com:
+              Continue com:
             </p>
             <div class="d-flex align-content-between justify-content-around">
               <a href="#" id="icone">
@@ -60,34 +61,43 @@
           <div
             class="container-fluid d-flex flex-column justify-content-center pt-5 px-0"
           >
-            <input
-              type="Email"
-              class="form-control col-lg m-2 shadow-sm"
-              placeholder="Digite seu email"
-              aria-label="Digite seu email"
-              aria-describedby="basic-addon1"
-            />
-            <input
-              type="password"
-              class="form-control col-lg m-2 shadow-sm"
-              placeholder="Digite sua senha"
-              aria-label="Digite sua senha"
-              aria-describedby="basic-addon1"
-            />
+            <div class="input-group mb-3">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Digite seu e-mail"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+            </div>
+
+            <div class="input-group mb-3">
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Recipient's username"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-outline-secondary"
+                type="button"
+                id="button-addon2" style="background-color:rgb(175, 242, 175) ; border-style:none ;"
+              >
+                >
+              </button>
+            </div>
           </div>
           <div
             class="container-fluid d-flex justify-content-center align-content-center"
           >
-            <button class="btn ecobtn m-2">Entrar</button>
             <p
               class="align-self-center m-0"
               style="font-size: 2ch; font-weight: bold"
             >
-              ou
+              <a href="">Criar conta</a>
             </p>
-            <a class="semcor" href="../Cadastro/cadastro.html">
-              <button class="btn ecobtn m-2">Cadastre-se</button>
-            </a>
+            
           </div>
         </div>
         <!--Segunda coluna-->
@@ -115,20 +125,7 @@
               >nomia
             </p>
           </div>
-          <div
-            class="container d-flex text-center justify-content-center align-content-center my -5"
-          >
-            <h1 class="titletext" id="subtitulo">
-              Seja <br />
-              Bem-Vindo(a)!
-            </h1>
-          </div>
-          <div class="container d-flex justify-content-center order-last">
-            <img
-              src="resources/Economiks Logo.png"
-              alt="Logo economiks"
-              style="width: 200px"
-            />
+         
           </div>
         </div>
       </div>
